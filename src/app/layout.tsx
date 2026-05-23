@@ -40,7 +40,16 @@ export default function RootLayout({
         </main>
 
         <footer className="text-center py-8 border-t border-gray-200 mt-12 text-gray-500 text-sm">
-          <p>&copy; 2024-2026 Yayokichi. All Rights Reserved.</p>
+          <p>&copy; 2026 Yayokichi. All Rights Reserved.</p>
+          <p
+            style={{
+              fontSize: "0.8rem",
+              color: "#888",
+              marginTop: "5px",
+            }}
+          >
+            Build Log: Started April 2026. Reached Ver 1.0 in 1 month.
+          </p>
         </footer>
       </body>
     </html>
